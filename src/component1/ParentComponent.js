@@ -11,9 +11,9 @@ export default class ParentComponent extends Component {
   // greetParent(){
   //   alert(`Hello ${this.state.parentName} !`)
   // }
-  greetParent(childName){
-    alert(`Hello ${childName} !`)
-  }
+  // greetParent(childName){
+  //   alert(`Hello ${childName} !`)
+  // }
   greetParent(childName){
     alert(`Hello ${this.state.parentName} from ${childName} !`)
   }
